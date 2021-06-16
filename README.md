@@ -11,22 +11,23 @@ Prerequisites:
 * A basic understanding of Neural Networks, CNNs, Transfer Learning, Loss functions, Metrics and Optimizers.
 * Python, Numpy, Matplotlib, Pandas.
 * Tensorflow, Keras
-* Building, training, saving, loading, evaluating a Deep Learning model.
+* Building, training and evaluating a Deep Learning model.
 
 
 First, a customized ResNet50 model to detect Brain Tumor from a person's MRI scan image is trained and tuned.
-Second, a ResUNet model to semantically segment the regions of Brain Tumor in a tumor positive scan image is built from scratch and trained.
-Then, the above two models are put together in a prediction pipeline that makes predictions and also visualizes them.
+
+Then, a ResUNet model to semantically segment the regions of Brain Tumor in a tumor positive scan image is built from scratch and trained.
+
+Finally, the above two models are put together in a prediction pipeline that makes predictions and also visualizes them.
 
 
 Note:
-
 Since the project was done using Google Colaboratory, all the required packages and libraries were preinstalled.
 These are the libraries and packages required,
 
 Tensorflow, Keras, scikit-learn, scikit-image, opencv, matplotlib, plotly, seaborn, numpy, pandas, zipfile, os, glob.
 
-The requirements.txt file from the used Colab environment has also been uploaded.
+The requirements.txt file from the used Colab environment is also available.
 
 
 
