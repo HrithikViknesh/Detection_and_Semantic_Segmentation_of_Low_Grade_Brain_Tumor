@@ -14,8 +14,8 @@ Prerequisites:
 * Building, training, saving, loading, evaluating a Deep Learning model.
 
 
-First, a model to detect Brain Tumor from a person's MRI scan image is trained and tuned.
-Second, a model to semantically segment the regions of Brain Tumor in a tumor positive scan image is trained.
+First, a customized ResNet50 model to detect Brain Tumor from a person's MRI scan image is trained and tuned.
+Second, a ResUNet model to semantically segment the regions of Brain Tumor in a tumor positive scan image is built from scratch and trained.
 Then, the above two models are put together in a prediction pipeline that makes predictions and also visualizes them.
 
 
