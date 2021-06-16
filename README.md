@@ -21,7 +21,7 @@ Then, the above two models are put together in a prediction pipeline that makes 
 
 Note:
 
-Since the project was done using Google Colaboratory, all the required libraries were preinstalled.
+Since the project was done using Google Colaboratory, all the required packages and libraries were preinstalled.
 These are the libraries and packages required,
 
 Tensorflow, Keras, scikit-learn, scikit-image, opencv, matplotlib, plotly, seaborn, numpy, pandas, zipfile, os, glob.
